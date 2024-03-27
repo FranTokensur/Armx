@@ -1,0 +1,28 @@
+
+Para determinar el tamaño de tu página web en términos de dimensiones visuales (alto y ancho), puedes usar JavaScript para acceder a las propiedades innerWidth e innerHeight del objeto window. Estas propiedades te darán las dimensiones del área visible del navegador.
+
+Aquí tienes un ejemplo simple de cómo puedes obtener el tamaño de la página web utilizando JavaScript:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener tamaño de la página web</title>
+</head>
+<body>
+
+<script>
+    // Obtener el tamaño de la página web
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+    // Mostrar el tamaño en la consola del navegador
+    console.log("Ancho de la página: " + width);
+    console.log("Alto de la página: " + height);
+</script>
+
+</body>
+</html>
